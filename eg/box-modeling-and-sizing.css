@@ -1,0 +1,14 @@
+* {
+    background-color: blanchedalmond;
+    box-sizing: border-box;
+}
+.container:hover {
+    width: 300px;
+    background-color: cadetblue;
+}
+#child {
+    width: 100%;
+    border: 10px solid black;
+    padding: 20px;
+    background-color: aqua;
+}

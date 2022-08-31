@@ -1,0 +1,40 @@
+*{
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+section{
+    position: fixed;
+    z-index: 5;
+}
+#red{
+    /*text-align: top-right;*/
+    top: 100px;
+    left: 300px;
+    background-color: red;
+    z-index: 1;
+}
+#blue{
+    top: 150px;
+    left: 250px;
+    z-index: -1;
+    background: blue;
+}
+#green{
+    text-align: left;
+    position: fixed;
+    /*border: 3px solid rgb(0, 0, 0);*/
+    padding: 1.5rem;
+    width: 250px;
+    top: 125px;
+    left: 170px;
+    z-index: 4;
+    background-color: green;
+}
+div{
+    position: fixed;
+    /* border: 3px solid rgb(0, 0, 0);*/
+    padding: 2rem;
+    width: 100px;
+    color: rgb(198, 201, 25);
+    /*font-size: 2rem;*/ 
+}

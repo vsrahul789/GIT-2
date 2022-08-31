@@ -1,0 +1,33 @@
+*{
+    background-color: #75ece2;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+    font-style: oblique;
+    color: darkblue;
+    
+}
+section{
+    height: 100vh;
+    border: 2px dotted black;
+}
+.red{
+    height: 75px;
+    background-color: red;
+}
+.blue{
+    height: 100px;
+    background-color: blue;
+}
+.green{
+    height: 125px;
+    background-color: green;
+}
+div:hover{
+    padding: 2rem;
+    color: white;
+    font-size: 1.5rem;
+    text-align: left;
+}
