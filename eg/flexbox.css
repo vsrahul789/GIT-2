@@ -10,24 +10,41 @@ h1{
     
 }
 section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*we can use the above 2 lines or the below single line but the above one is easier for bigger problems*/
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;/*just as align items there is align content*/
+    /*align-content: space-between;*/
+    gap: 15px;
     height: 100vh;
     border: 2px dotted black;
 }
 .red{
+    order: -1;
     height: 75px;
     background-color: red;
 }
 .blue{
+    /*order:5;*/
+    flex-grow: 1;
+    flex-basis: 100vw;
+    flex-shrink: 1;
     height: 100px;
     background-color: blue;
 }
 .green{
+    flex:0 0 50px;/*this one has all flex-grow,shrink,basis in order*/
     height: 125px;
     background-color: green;
 }
-div:hover{
+div{
     padding: 2rem;
     color: white;
     font-size: 1.5rem;
     text-align: left;
+    font-style:italic;
+    border: 2px solid black;
 }
