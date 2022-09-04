@@ -1,0 +1,42 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr repeat(3,1fr);
+    grid-template-areas: 
+    "header"
+    "main"
+    "aside"
+    "nav"
+    "footer";
+    gap: 15px;
+    background-color: lightslategray;
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+aside{
+    grid-area: aside;
+}
+footer{
+    grid-area: footer;
+}
+body>*{
+    border: 3px solid lightsteelblue;
+    padding: 5px;
+}
+@media (min-width:500px) {
+    body{
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "main aside nav"
+    "footer footer footer";
+    padding: 1rem;
+    gap: 15px;
+    }
+}
+/*This layout is both mobile and pc compatible*/
