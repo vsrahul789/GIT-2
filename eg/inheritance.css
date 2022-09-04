@@ -1,0 +1,13 @@
+body{
+    background-color: aquamarine;
+}
+main{
+    text-align: center;
+    color: crimson;
+    border: 5px solid lawngreen;
+    bottom: 250px;
+}
+button {
+    color: inherit;
+    border: 2px solid grey;
+}
