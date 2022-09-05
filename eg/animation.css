@@ -1,0 +1,63 @@
+h1{
+    width: 575px;
+    height: 40px;
+    padding: 15px;
+    text-align: center;
+    background-color: chocolate;
+    transition-delay: 0.15s;
+    transition-duration: 0.25s;
+    border-radius: 20px;
+}
+h1:hover{
+    width: 600px;
+    height: 1.5em;
+    padding: 20px;
+    color: skyblue;
+    background-color: rgb(228, 40, 40);
+}
+section{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "div1 div2"
+    "div3 div4";
+}
+div{
+    /*width: 150px;
+    height: 6em;*/
+    border-radius: 15px;
+    margin: 4em;
+    padding: 15px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+}
+.div1{
+    background-color: lightcoral;
+    grid-area: div1;
+}
+.div2{
+    background-color: skyblue;
+    grid-area: div2;
+}
+.div3{
+    background-color: lightslategrey;
+    grid-area: div3;
+}
+.div4{
+    background-color: lightgreen;
+    grid-area: div4;
+}
+
+div:hover{
+    position: relative;
+    text-shadow: silver;
+    width: 200px;
+    height: 25px;
+}
+body{
+    background-color: aquamarine;
+}
