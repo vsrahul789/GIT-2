@@ -1,13 +1,28 @@
 *{
     background-color: #4db8ff;
     box-sizing: border-box;
+    /* background: url(https://source.unsplash.com/random)no-repeat center center/cover;important syntax and link */
 }
 img{
     display: block;
     margin: auto;
     background-repeat: no-repeat;
-    width: 720px;
-    height: 480px;
+    width: 50vw;
+    height: 75vh;
+}
+div{
+    max-width: fit-content;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    border:3px solid #4d4dff;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    max-width: fit-content;
+    margin-inline: 50px;
+    background-color: #d580ff;
+    /* background-image: url(https://source.unsplash.com/random); */
 }
 h1{
     text-align: center;
@@ -16,14 +31,17 @@ h1{
     font-size: 48px;
     font-weight: 400;
     border:3px solid #4d4dff;
-    /* width: 550px; */
+    max-width: fit-content;
     padding: 15px;
-    background-color: #33ffff;
+    background-color: #10bfbf;
     margin: auto;
     border-radius: 10px;
     display: block;
+    background: url(https://source.unsplash.com/random)no-repeat center center/cover;
 }
 .container-1{ 
+    margin-top: 5px;
+    margin-bottom: 5px;
     border: 5px solid greenyellow;
     border-radius: 10px;
     max-width: 806px;
@@ -36,8 +54,11 @@ h1{
     max-width: 548px;
     margin:auto;
     padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 p{    
+    /* background-image: url(https://source.unsplash.com/random); */
     display: inline-block;
     width: 250px;
     border: 3px solid rgb(195, 36, 36);
@@ -50,4 +71,30 @@ p{
 }
 .Paragraph-1, .Paragraph-3,.Paragraph-2{
     position:relative;
+}
+.iframe{
+    display: inline-block;
+    margin: 20px auto 20px 250px;
+    border-radius: 10px;
+}
+details{
+    margin-left: 25px;
+    color: rosybrown;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    background-color: wheat;
+    border: 1px solid rebeccapurple;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: fit-content;
+    font-size: 25px;
+}
+a{
+    background-color:  wheat;
+    text-decoration: none;
+}
+.video{
+    display: inline-block;
+    margin: 20px auto 20px 20px; /*it comes clock wise margin padding*/
+    /* position: absolute; */ 
 }
