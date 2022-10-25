@@ -1,25 +1,37 @@
 body{
-    background: url(https://source.unsplash.com/random)no-repeat center center/cover;}
+    background-color: chartreuse;
+}
+#container-1{
+    background: url(https://source.unsplash.com/random)no-repeat center center/cover;
+    display: inline-block;
+    /* background-color:teal ; */
+    margin: -8px;
+}
 ul{
     display: flex;
-    text-decoration: wavy;
+    /* text-decoration: wavy; */
     font-weight: 700;
     flex-direction: row;
     margin-top: 25px;
     list-style: none;
+    mix-blend-mode: darken;
 }
 .item{
     flex-flow: row;
     margin: 15px;
 }
 h1{
+    /* color: darkgoldenrod; */
+    text-shadow: 2px;
     font-family: 'Dancing Script', cursive;
     text-align: center;
     margin-top: 35vh;
     margin-bottom: 50px;
-    /* text-decoration:wavy; */
+    mix-blend-mode:darken;
 }
-p{
-    margin: 0px 150px 0px 150px;
+.para-1{
+    margin: 0px 150px 120px 150px;
     font-size: 20px;
+    text-align: center;
+    mix-blend-mode:darken;
 }
