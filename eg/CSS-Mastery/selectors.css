@@ -37,7 +37,7 @@ h1{
     margin: auto;
     border-radius: 10px;
     display: block;
-    background: url(https://source.unsplash.com/random)no-repeat center center/cover;
+    /* background: url(https://source.unsplash.com/random)no-repeat center center/cover; */
 }
 .container-1{ 
     margin-top: 5px;
@@ -68,6 +68,7 @@ p{
     font-size: large;
     margin-block: 1em;
     padding: 15px;
+    /* position: absolute; */
 }
 .Paragraph-1, .Paragraph-3,.Paragraph-2{
     position:relative;
@@ -88,6 +89,7 @@ details{
     padding: 5px;
     max-width: fit-content;
     font-size: 25px;
+    
 }
 a{
     background-color:  wheat;
