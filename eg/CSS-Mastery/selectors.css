@@ -11,7 +11,8 @@ img{
     height: 75vh;
 }
 div{
-    max-width: fit-content;
+    /* max-width: fit-content; */
+    margin: -8px;
 }
 h2{
     font-family: 'Dancing Script', cursive;
@@ -69,10 +70,16 @@ p{
     margin-block: 1em;
     padding: 15px;
     /* position: absolute; */
+    /* transition-property:background-color;
+    transition-duration:5s;
+    transition-timing-function: ease-in; */
 }
-.Paragraph-1, .Paragraph-3,.Paragraph-2{
+/* p:hover{
+    background-color: rgb(21, 25, 245);
+} */
+/* .Paragraph-1, .Paragraph-3,.Paragraph-2{
     position:relative;
-}
+} */
 .iframe{
     display: inline-block;
     margin: 20px auto 20px 250px;
@@ -99,4 +106,15 @@ a{
     display: inline-block;
     margin: 20px auto 20px 20px; /*it comes clock wise margin padding*/
     /* position: absolute; */ 
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* opacity: 0.3; */
+    border-radius: 10px;
 }
+/* .cont{
+    display: block;
+    border: 5px solid magenta;
+    opacity: 0.75;
+    position: initial;
+    background: url(https://source.unsplash.com/random)no-repeat center center/cover;
+    min-width:fit-content;
+} */
