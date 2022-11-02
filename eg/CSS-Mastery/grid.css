@@ -1,17 +1,21 @@
 #container1{
-    background:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp5244751.jpg&f=1&nofb=1&ipt=b8e7bd2da0da21994ff0200dcb3a244d467087d828b976b53cca011281bf2a76&ipo=images) no-repeat center center/cover fixed;
+    /* background:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp5244751.jpg&f=1&nofb=1&ipt=b8e7bd2da0da21994ff0200dcb3a244d467087d828b976b53cca011281bf2a76&ipo=images) no-repeat center center/cover fixed; */
     opacity: 0.7;
     width: 99.99vw;
     height:99.5vh;
+    border: 2px solid gray;
+    /* background-color: cornsilk; */
+    border-style: groove;
     margin: -8px;
 }
 #container2{
-    background: url(https://source.unsplash.com/random)no-repeat center center/cover fixed;
+    /* background: url(https://source.unsplash.com/random)no-repeat center center/cover fixed; */
     opacity: 0.8;
     width: 99.99vw;
     height:99.5vh;
     display: block;
     /* font-family: 'Dancing Script', cursive; */
+    display: grid;
 }
 *{
     background-color: rgb(63, 63, 231);
@@ -27,4 +31,10 @@ h2{
     margin: 10px 50vw;
     font-weight: bolder;
     font-style:normal;
+}
+.para-1{
+    padding: 10px;
+    margin-top: 100px;
+    border-left-width: 100px;
+    border-right-width: 100px;
 }
