@@ -1,0 +1,1 @@
+console.log("the gcd of 2 numbers are:"+i)
