@@ -19,24 +19,23 @@ console.clear()
 // }
 
 // LCM of 2 numbers
-// var a=50,b=100,i=1,c=1
-// // var temp
-// while(i<a||i<b){
-//     if(a%i==0 || b%i==0){
-//         // temp++
-//         // console.log(i)
-//         c=c*i
+// var a=50,b=60,lcm
+// if(a>b){
+//     max=a
+// }else{
+//     max=b
+// }
+// lcm=max
+// while(true){
+//     if(lcm%a==0 && lcm%b==0){
+//         break
 //     }else{
-//         i++
+//         lcm++
 //     }
 // }
-// if(c!=1){
-// console.log("the lcm of 2 number is ",c)
-// }else{
-//     console.log("the lcm of 2 numbers is ",(a*b))
-// }
+// console.log("LCM is: ",lcm)
 
-//practice1
+// practice1
 // var mArray=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 // var i=1,n=13,temp=0
 // // console.log("the no of even numbers till 13 are:")
