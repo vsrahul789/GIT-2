@@ -30,15 +30,16 @@ int main()
         printf("insufficient memory 2 :)");
         EXIT_FAILURE;
     }    
-    for(i=0 ; i<m ; i++)
+    for(i=n ; i<m+n ; i++)
     {
         scanf("%d" , &ptr[i]);
     }
-    for(i=0 ; i<m ; i++)
+    for(i=0 ; i<m+n ; i++)
     {
         printf("%d\t" , ptr[i]);
     }
     printf("\n");
     free(ptr);
+    ptr=NULL;
     return 0;
 }
