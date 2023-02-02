@@ -1,6 +1,6 @@
-a = 10
+a = 11
 b = a * 11
 
-print(b)
+print(c(a,b));
 
 print("Hello World")
