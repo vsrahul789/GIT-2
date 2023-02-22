@@ -45,7 +45,7 @@ bool search(struct node *root,int key)
         cout<<"the tree is empty"<<endl;
         return 0;
     }
-    else if(root->data==key){
+    if(root->data==key){
         return true;
     }
     else if(key <= root->data){

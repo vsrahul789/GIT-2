@@ -1,5 +1,7 @@
 #include<iostream>
 #include<stdlib.h>
+#include<stack>
+#include<cmath>
 
 using namespace std;
 
@@ -37,41 +39,53 @@ struct node *insert(struct node *root,int data)
     return root;
 }
 
-bool search(struct node *root,int key)
+void depthfirst(node *root)
 {
-    struct node *temp=root;
     if(root==NULL)
     {
-        cout<<"the tree is empty"<<endl;
-        return 0;
+        return;
     }
-    else if(root->data==key){
-        return true;
+    stack <node *> s;
+    s.push(root);
+    double small=INFINITY;
+
+    while(!s.empty())
+    {
+        node *temp=s.top();
+        cout<<temp->data<<endl;
+        s.pop();
+
+        if(temp->data < small) 
+        {
+            small=temp->data;
+        }
+        if(temp->left!=NULL)
+        {
+            s.push(temp->left);
+        }
+        if(temp->right!=NULL)
+        {
+            s.push(temp->right);
+        }
     }
-    else if(key <= root->data){
-        search(root->left,key);
-    }
-    else if(key > root->data){
-        search(root->right,key);
-    }else{
-        return false;
-    }
-    return false;
+    cout<<"small number in tree is:"<<small<<endl;
 }
 
 int main()
 {
     struct node *root=new struct node;
-    root = create(root,15);
+    root = create(root,100);
 
     struct node *ptr=root;
 
     ptr=insert(root,10);
-    ptr=insert(root,20);
-    ptr=insert(root,3);
-    ptr=insert(root,12);
+    ptr=insert(root,60);
+    ptr=insert(root,-50);
+    ptr=insert(root,200);
     ptr=insert(root,19);
-    ptr=insert(root,23);
+    ptr=insert(root,-23);
+
+    depthfirst(root);
 
     return 0;
 }
