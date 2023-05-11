@@ -1,5 +1,7 @@
+rm(list = ls())
 #2
 A=matrix(c(1,2,3,2,3,6,4,5,9),3,3,byrow = T)
+library(pracma)
 rank=Rank(A)
 print(rank)
 

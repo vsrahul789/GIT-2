@@ -1,0 +1,49 @@
+body{
+	background-color: steelblue;
+	box-sizing: border-box;
+}
+
+#main-div{
+	display: grid;
+	justify-content: center;
+}
+
+.container{
+	display: grid;
+	width: 900px;
+	height: 500px;
+	border: 5px solid darkgray;
+}
+
+.box1{
+	width: fit-content;
+	height: 200px;
+	border: 2px solid darksalmon;
+	padding: 40px;
+	border-radius: 8px;
+}
+
+.box2 {
+	width: fit-content;
+	height: 200px;
+	border: 2px solid darksalmon;
+	padding: 40px;
+	border-radius: 8px;
+}
+
+.box3{
+	width: fit-content;
+	height: 200px;
+	border: 2px solid darksalmon;
+	padding: 40px;
+	border-radius: 8px;
+}
+
+#heading1{
+	position: relative;
+	font-size: 2.5em;
+	width: fit-content;
+	border: 2.5px solid grey;
+	padding: 15px;
+	border-radius: 10px;
+}

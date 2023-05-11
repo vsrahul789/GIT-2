@@ -1,3 +1,4 @@
+rm(list = ls())
 v=c("green","apple")
 c=2
 repeat{
@@ -19,6 +20,7 @@ city=data.frame(name,weather)
 city$weather[city$name=="city3"]="snowy"
 print(city)
 cityweather=list("city1","city2","city3",c("sunny","cloudy","rainy"))
+print(cityweather)
 print(cityweather[[4]][2])
 
 r.temp=as.integer(readline(prompt = "enter the room temp"))

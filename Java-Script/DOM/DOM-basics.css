@@ -1,15 +1,15 @@
-/* *{
+ *{
     background-color: rgb(155, 248, 217);
-} */
-/* #countdown{
+} 
+ #countdown{
     text-align: center;
     color: hsl(0, 100%, 50%);
     position:absolute;
     font-size: 50px;
     opacity: 1;
     height: 50vh;
-} */
-/* #div-tag{
+} 
+ #div-tag{
     display: block;
     margin: -8px;
     width: 100vw;
@@ -18,15 +18,15 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-} */
-/* #bg-image1{
+} 
+ #bg-image1{
     position:sticky;
     display: block;
     width: 100vw;
     height: 100vh;
     margin: -8px;
-} */
-/* .head-2{
+} 
+ .head-2{
     color: aliceblue;
     text-align: center;
-} */
+} 

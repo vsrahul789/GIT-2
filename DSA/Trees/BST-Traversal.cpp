@@ -41,31 +41,31 @@ struct node *insert(struct node *root,int data)
 
 // level order
 
-// void levelorder(struct node *root){
-//     if(root==NULL)
-//     {
-//         return;
-//     }
-//     queue<node *> q;
-//     q.push(root);
+void levelorder(struct node *root){
+    if(root==NULL)
+    {
+        return;
+    }
+    queue<node *> q;
+    q.push(root);
 
-//     while (!q.empty())
-//     {
-//         node *temp=q.front();
-//         cout<<temp->data<<endl;
+    while (!q.empty())
+    {
+        node *temp=q.front();
+        cout<<temp->data<<endl;
 
-//         if(temp->left!=NULL)
-//         {
-//             q.push(temp->left);
-//         }
-//         if(temp->right!=NULL)
-//         {
-//             q.push(temp->right);
-//         }
-//         q.pop();
-//     }
+        if(temp->left!=NULL)
+        {
+            q.push(temp->left);
+        }
+        if(temp->right!=NULL)
+        {
+            q.push(temp->right);
+        }
+        q.pop();
+    }
     
-// }
+}
 
 //preorder traversal
 
@@ -98,19 +98,19 @@ struct node *insert(struct node *root,int data)
 // }
 
 //inorder traversal or ascending order 
-node *inorder(node *root)
-{
-    if(root==NULL)
-    {
-        // cout<<"the tree is empty:("<<endl;
-        return root;
-    }
+// node *inorder(node *root)
+// {
+//     if(root==NULL)
+//     {
+//         // cout<<"the tree is empty:("<<endl;
+//         return root;
+//     }
 
-    inorder(root->left);
-    cout<<root->data<<"\t";
-    inorder(root->right);
-    return 0;
-}
+//     inorder(root->left);
+//     cout<<root->data<<"\t";
+//     inorder(root->right);
+//     return 0;
+// }
 
 int main()
 {
@@ -138,10 +138,10 @@ int main()
     ptr=insert(root,19);
     ptr=insert(root,19);
 
-    // levelorder(root);
+    levelorder(root);
     // preorder(root);
     // postorder(root);
-    inorder(root);
+    // inorder(root);
 
     cout<<endl<<endl;
     return 0;

@@ -36,3 +36,4 @@ crashTest_1_TEST[logispred>0.5,"logispred"]="SUV"
 
 library(caret)
 confusionMatrix(table(crashTest_1_TEST[,7],crashTest_1_TEST[,6]))
+

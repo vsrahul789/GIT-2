@@ -1,3 +1,4 @@
+rm(list = ls())
 iris_data= read.csv("D:/Visual Studio Code/GIT-1/R-Studio/Week-7/iris.csv - iris.csv",header = T,row.names = "ID",stringsAsFactors = T)
 # q6
 dim(iris_data)
@@ -23,3 +24,4 @@ lapply(iris_data[,3:4],mean)
 
 # q10
 sum(is.na(iris_data))
+

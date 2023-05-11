@@ -1,3 +1,4 @@
+rm(list = ls())
 # is.character("-")
 # as.complex(2)
 # typeof(1)
@@ -48,24 +49,24 @@
 
 # creating a Data Frame
 
-# vec1=c(1,2,3)
-# vec2=c("R","Scilab","Java")
-# vec3=c("For DataScience","For Don't Know","For Mandatory")
-# 
-# df=data.frame(vec1,vec2,vec3)
-# print(df)
-# print("-----------------------------")
+vec1=c(1,2,3)
+vec2=c("R","Scilab","Java")
+vec3=c("For DataScience","For Don't Know","For Mandatory")
+
+df=data.frame(vec1,vec2,vec3)
+print(df)
+print("-----------------------------")
 
 # accessing data frame
 # eg1
 
-# print(df[1:2,]) #To Access 1st and 2nd row
+print(df[1:2,]) #To Access 1st and 2nd row
 
-# print(df[,1:2]) #To Access 1st and 2nd coloumn 
-# 
-# df[[2]][2]="Python"
-# df[[3]][2]="For DataScience"
-# print(df)
+print(df[,1:2]) #To Access 1st and 2nd coloumn
+
+df[[2]][2]="Python"
+df[[3]][2]="others"
+print(df)
 
 
 #eg2

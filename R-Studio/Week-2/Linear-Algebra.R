@@ -1,3 +1,4 @@
+rm(list = ls())
 a=matrix(c(1,2,3,0,0,1),nrow = 3,ncol = 2)
 # b=matrix(c(1,2,3),nrow = 3,ncol = 1)
 # c=a%*%b

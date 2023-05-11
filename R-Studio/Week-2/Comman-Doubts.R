@@ -14,3 +14,13 @@ print(B)
 print(dim(B))
 print(rank(A))
 
+print("------------------------------------------")
+
+a=matrix(c(-1/4,0,0,-1/3),2,2,byrow = T)
+t(a)
+
+b=matrix(c(1,2,3,4),2,2,byrow = T)
+t(b)
+
+
+

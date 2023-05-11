@@ -1,0 +1,40 @@
+body{
+	background-color: darkturquoise;
+	box-sizing: border-box;
+}
+
+.div1 {
+
+    width: 375PX;
+    border: 2.5px solid blanchedalmond;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: yellowgreen;
+/*    border-right: darkred;*/
+}
+
+#heading1 {
+    border-width: 300px;
+    border: 2px solid azure;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: aliceblue;
+}
+
+#heading1:hover{
+    color: darkturquoise;
+    background-color: aqua;
+}
+
+.list-items{
+    padding: 3px;
+    border-radius: 5px;
+    background-color: skyblue;
+    border-width: 250px;
+    border-bottom: 2.5px solid floralwhite;
+}
+
+.list-items:hover {
+    color: aliceblue;
+    background-color: deepskyblue;
+}
