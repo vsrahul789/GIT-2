@@ -14,6 +14,8 @@ num.samples <- 100
 ## mean 172 and standard deviation 29, then sort them
 weight <- sort(rnorm(n=num.samples, mean=172, sd=29))
 
+weight
+
 ## Now we will decide if a sample is obese or not. 
 ## NOTE: This method for classifying a sample as obese or not
 ## was made up just for this example.
